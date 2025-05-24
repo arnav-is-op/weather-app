@@ -17,6 +17,8 @@ This project fetches real-time weather data using the OpenWeatherMap API and dis
 
 [Click here to try it out](https://arnav-is-op.github.io/weather-app/)  
 
+[📁 GitHub Repo](https://github.com/arnav-is-op/weather-app)
+
 ## 📦 Tech Stack
 
 - **HTML5**
