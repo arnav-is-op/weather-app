@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Oswald:wght@200..700&family=WDXL+Lubrifont+TC&display=swap');
+
+* {
+    font-family: "Ancizar", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+
+}
+
 body {
     /* background: #8C52FF; */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -97,4 +106,35 @@ button:hover {
 #hourly-heading {
     color: #fff;
     margin-top: 10px;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    #city-input,
+    #search-button {
+        width: 100%;
+        margin-top: 8px;
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    #weather-container {
+        width: 100%;
+        margin-top: 20px;
+        padding: 10px;
+    }
+
+    #weather-container img {
+        width: 80px;
+        height: 80px;
+    }
+
+    #temperature {
+        font-size: 24px;
+    }
+
+
 }
